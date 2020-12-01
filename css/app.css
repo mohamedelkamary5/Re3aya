@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #eee; }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 15px;
+  color: #a8a9b0; }
+
+.container .inner {
+  background: #fff !important;
+  margin-top: 60px;
+  padding: 30px;
+  border-radius: 20px; }
+  .container .inner .img img {
+    border-radius: 50%;
+    width: 100%;
+    box-shadow: 0 0 12px 2px rgba(0, 0, 0, 0.15); }
+    @media (max-width: 567px) {
+      .container .inner .img img {
+        width: 79%; } }
+  .container .inner .details .groub-btn i,
+  .container .inner .details .groub-btn svg {
+    color: #5e1179; }
+  .container .inner .details .groub-btn button {
+    border: 2.4px solid #5e1179;
+    font-size: 16px;
+    font-weight: 600;
+    color: #5e1179;
+    border-radius: 5px; }
+    .container .inner .details .groub-btn button:hover {
+      background: #fff !important; }
+  .container .inner .details .fa-star {
+    color: #fec100; }
+  .container .inner .details .days button {
+    background: #eee;
+    padding: 2px 18px;
+    margin: 1px 5px 10px;
+    outline: none; }
+    .container .inner .details .days button:focus {
+      box-shadow: none; }
+  .container .inner .details .links a {
+    color: #5e1179;
+    font-weight: bolder;
+    font-size: 17;
+    text-decoration: underline; }
+  .container .inner .details .appoint {
+    background: #5e1179;
+    outline: none;
+    border: none;
+    padding: 12px 4px;
+    margin-bottom: 10px; }
+    .container .inner .details .appoint:focus {
+      box-shadow: none; }
+
+.owl-carousel .owl-item {
+  background: #eee;
+  text-align: center;
+  margin: 2px 20px;
+  padding: 4px 16px;
+  width: 90%; }
+
+.owl-carousel .owl-dots {
+  display: none; }
+
+.owl-carousel .owl-prev {
+  position: absolute;
+  right: -9px;
+  top: -24px; }
+  .owl-carousel .owl-prev:hover {
+    background: #fff;
+    color: #fff; }
+  .owl-carousel .owl-prev:focus {
+    outline: none; }
+  .owl-carousel .owl-prev span {
+    font-size: 40px; }
+
+.owl-carousel .owl-next {
+  position: absolute;
+  left: -24px;
+  top: -24px; }
+  .owl-carousel .owl-next:hover {
+    background: #fff;
+    color: #fff; }
+  .owl-carousel .owl-next:focus {
+    outline: none; }
+  .owl-carousel .owl-next span {
+    font-size: 40px; }
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: #fff0; }
+
+.is-active {
+  background: #5e1179 !important;
+  color: #fff;
+  transition: background-color 0.1s ease;
+  transition: background-color 0.2s ease; }
+  .is-active:focus {
+    color: #fff; }
